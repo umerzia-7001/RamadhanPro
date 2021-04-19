@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180866332620BA60000592D1 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180866322620BA60000592D1 /* mainPage.swift */; };
+		180866382620C1C9000592D1 /* labelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180866372620C1C9000592D1 /* labelView.swift */; };
+		181E27F426219AEF00B9D5FF /* adhanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E27F326219AEF00B9D5FF /* adhanView.swift */; };
+		181E27F926219B3300B9D5FF /* QiblaDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E27F826219B3300B9D5FF /* QiblaDirection.swift */; };
+		181E28052621AD4C00B9D5FF /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E28042621AD4C00B9D5FF /* CompassHeading.swift */; };
+		181E280A2621AD7500B9D5FF /* Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E28092621AD7500B9D5FF /* Compass.swift */; };
+		181E280F2621ADAF00B9D5FF /* compassHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E280E2621ADAF00B9D5FF /* compassHelper.swift */; };
+		181E281E2621B91600B9D5FF /* qiblaFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E281D2621B91600B9D5FF /* qiblaFinder.swift */; };
+		181E28272621CD8B00B9D5FF /* calendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E28262621CD8B00B9D5FF /* calendarView.swift */; };
+		181E283F2621D47800B9D5FF /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 181E283E2621D47800B9D5FF /* ElegantCalendar */; };
+		181E284D2621DE7100B9D5FF /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E284C2621DE7100B9D5FF /* ElegantCalendar.xcassets */; };
+		186EBD2B2620C94500C3C11B /* prayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EBD2A2620C94500C3C11B /* prayerTimes.swift */; };
+		1896D230262064F2000B748B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D22F262064F2000B748B /* AppDelegate.swift */; };
+		1896D232262064F2000B748B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D231262064F2000B748B /* SceneDelegate.swift */; };
+		1896D234262064F2000B748B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D233262064F2000B748B /* ContentView.swift */; };
+		1896D236262064F3000B748B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1896D235262064F3000B748B /* Assets.xcassets */; };
+		1896D239262064F3000B748B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1896D238262064F3000B748B /* Preview Assets.xcassets */; };
+		1896D23C262064F3000B748B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1896D23A262064F3000B748B /* LaunchScreen.storyboard */; };
+		1896D247262064F4000B748B /* RamdanProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D246262064F4000B748B /* RamdanProTests.swift */; };
+		1896D252262064F4000B748B /* RamdanProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D251262064F4000B748B /* RamdanProUITests.swift */; };
+		18AE1AB22624732F00ED5843 /* nextPrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE1AB12624732F00ED5843 /* nextPrayerView.swift */; };
+		386E975CF5E4BAF27153D18B /* Pods_RamdanPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2BFB72FAB2718189A50215 /* Pods_RamdanPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1896D243262064F4000B748B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1896D224262064F2000B748B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1896D22B262064F2000B748B;
+			remoteInfo = RamdanPro;
+		};
+		1896D24E262064F4000B748B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1896D224262064F2000B748B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1896D22B262064F2000B748B;
+			remoteInfo = RamdanPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180866322620BA60000592D1 /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		180866372620C1C9000592D1 /* labelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelView.swift; sourceTree = "<group>"; };
+		181E27F326219AEF00B9D5FF /* adhanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhanView.swift; sourceTree = "<group>"; };
+		181E27F826219B3300B9D5FF /* QiblaDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaDirection.swift; sourceTree = "<group>"; };
+		181E28042621AD4C00B9D5FF /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		181E28092621AD7500B9D5FF /* Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass.swift; sourceTree = "<group>"; };
+		181E280E2621ADAF00B9D5FF /* compassHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassHelper.swift; sourceTree = "<group>"; };
+		181E281D2621B91600B9D5FF /* qiblaFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiblaFinder.swift; sourceTree = "<group>"; };
+		181E28262621CD8B00B9D5FF /* calendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarView.swift; sourceTree = "<group>"; };
+		181E284C2621DE7100B9D5FF /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ElegantCalendar.xcassets; path = "../ElegantCalendar-master/ElegantCalendar.xcassets"; sourceTree = "<group>"; };
+		186EBD2A2620C94500C3C11B /* prayerTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerTimes.swift; sourceTree = "<group>"; };
+		1896D22C262064F2000B748B /* RamdanPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamdanPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1896D22F262064F2000B748B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1896D231262064F2000B748B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1896D233262064F2000B748B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1896D235262064F3000B748B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1896D238262064F3000B748B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1896D23B262064F3000B748B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1896D23D262064F3000B748B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1896D242262064F4000B748B /* RamdanProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdanProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1896D246262064F4000B748B /* RamdanProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdanProTests.swift; sourceTree = "<group>"; };
+		1896D248262064F4000B748B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1896D24D262064F4000B748B /* RamdanProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdanProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1896D251262064F4000B748B /* RamdanProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdanProUITests.swift; sourceTree = "<group>"; };
+		1896D253262064F4000B748B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AE1AB12624732F00ED5843 /* nextPrayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextPrayerView.swift; sourceTree = "<group>"; };
+		36357038A7166C474DDBBFBE /* Pods-RamdanPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdanPro.debug.xcconfig"; path = "Target Support Files/Pods-RamdanPro/Pods-RamdanPro.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2BFB72FAB2718189A50215 /* Pods_RamdanPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamdanPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2844548666C5F0A6AE2B45B /* Pods-RamdanPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdanPro.release.xcconfig"; path = "Target Support Files/Pods-RamdanPro/Pods-RamdanPro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1896D229262064F2000B748B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E975CF5E4BAF27153D18B /* Pods_RamdanPro.framework in Frameworks */,
+				181E283F2621D47800B9D5FF /* ElegantCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D23F262064F4000B748B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D24A262064F4000B748B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E28162621B7A700B9D5FF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				181E28042621AD4C00B9D5FF /* CompassHeading.swift */,
+				181E280E2621ADAF00B9D5FF /* compassHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		186CA2102620664400B19F2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1896D233262064F2000B748B /* ContentView.swift */,
+				180866322620BA60000592D1 /* mainPage.swift */,
+				180866372620C1C9000592D1 /* labelView.swift */,
+				181E27F326219AEF00B9D5FF /* adhanView.swift */,
+				181E28092621AD7500B9D5FF /* Compass.swift */,
+				181E28262621CD8B00B9D5FF /* calendarView.swift */,
+				186EBD2A2620C94500C3C11B /* prayerTimes.swift */,
+				18AE1AB12624732F00ED5843 /* nextPrayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		186CA2112620664A00B19F2C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				181E281D2621B91600B9D5FF /* qiblaFinder.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		186CA2122620665700B19F2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181E27F826219B3300B9D5FF /* QiblaDirection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1896D223262064F2000B748B = {
+			isa = PBXGroup;
+			children = (
+				181E284C2621DE7100B9D5FF /* ElegantCalendar.xcassets */,
+				1896D22E262064F2000B748B /* RamdanPro */,
+				1896D245262064F4000B748B /* RamdanProTests */,
+				1896D250262064F4000B748B /* RamdanProUITests */,
+				1896D22D262064F2000B748B /* Products */,
+				1ACD8468421BC9DDE852309C /* Pods */,
+				D5BE1206C10FF217C518D7F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1896D22D262064F2000B748B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1896D22C262064F2000B748B /* RamdanPro.app */,
+				1896D242262064F4000B748B /* RamdanProTests.xctest */,
+				1896D24D262064F4000B748B /* RamdanProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1896D22E262064F2000B748B /* RamdanPro */ = {
+			isa = PBXGroup;
+			children = (
+				186CA2102620664400B19F2C /* Views */,
+				186CA2122620665700B19F2C /* Model */,
+				186CA2112620664A00B19F2C /* ViewModels */,
+				1896D22F262064F2000B748B /* AppDelegate.swift */,
+				1896D231262064F2000B748B /* SceneDelegate.swift */,
+				181E28162621B7A700B9D5FF /* Helpers */,
+				1896D235262064F3000B748B /* Assets.xcassets */,
+				1896D23A262064F3000B748B /* LaunchScreen.storyboard */,
+				1896D23D262064F3000B748B /* Info.plist */,
+				1896D237262064F3000B748B /* Preview Content */,
+			);
+			path = RamdanPro;
+			sourceTree = "<group>";
+		};
+		1896D237262064F3000B748B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1896D238262064F3000B748B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1896D245262064F4000B748B /* RamdanProTests */ = {
+			isa = PBXGroup;
+			children = (
+				1896D246262064F4000B748B /* RamdanProTests.swift */,
+				1896D248262064F4000B748B /* Info.plist */,
+			);
+			path = RamdanProTests;
+			sourceTree = "<group>";
+		};
+		1896D250262064F4000B748B /* RamdanProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1896D251262064F4000B748B /* RamdanProUITests.swift */,
+				1896D253262064F4000B748B /* Info.plist */,
+			);
+			path = RamdanProUITests;
+			sourceTree = "<group>";
+		};
+		1ACD8468421BC9DDE852309C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36357038A7166C474DDBBFBE /* Pods-RamdanPro.debug.xcconfig */,
+				A2844548666C5F0A6AE2B45B /* Pods-RamdanPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5BE1206C10FF217C518D7F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E2BFB72FAB2718189A50215 /* Pods_RamdanPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1896D22B262064F2000B748B /* RamdanPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1896D256262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanPro" */;
+			buildPhases = (
+				432D9DE0838B65C98D380088 /* [CP] Check Pods Manifest.lock */,
+				1896D228262064F2000B748B /* Sources */,
+				1896D229262064F2000B748B /* Frameworks */,
+				1896D22A262064F2000B748B /* Resources */,
+				7B1487C36744601BF0E4E910 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamdanPro;
+			packageProductDependencies = (
+				181E283E2621D47800B9D5FF /* ElegantCalendar */,
+			);
+			productName = RamdanPro;
+			productReference = 1896D22C262064F2000B748B /* RamdanPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1896D241262064F4000B748B /* RamdanProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1896D259262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanProTests" */;
+			buildPhases = (
+				1896D23E262064F4000B748B /* Sources */,
+				1896D23F262064F4000B748B /* Frameworks */,
+				1896D240262064F4000B748B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1896D244262064F4000B748B /* PBXTargetDependency */,
+			);
+			name = RamdanProTests;
+			productName = RamdanProTests;
+			productReference = 1896D242262064F4000B748B /* RamdanProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1896D24C262064F4000B748B /* RamdanProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1896D25C262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanProUITests" */;
+			buildPhases = (
+				1896D249262064F4000B748B /* Sources */,
+				1896D24A262064F4000B748B /* Frameworks */,
+				1896D24B262064F4000B748B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1896D24F262064F4000B748B /* PBXTargetDependency */,
+			);
+			name = RamdanProUITests;
+			productName = RamdanProUITests;
+			productReference = 1896D24D262064F4000B748B /* RamdanProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1896D224262064F2000B748B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1896D22B262064F2000B748B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1896D241262064F4000B748B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1896D22B262064F2000B748B;
+					};
+					1896D24C262064F4000B748B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1896D22B262064F2000B748B;
+					};
+				};
+			};
+			buildConfigurationList = 1896D227262064F2000B748B /* Build configuration list for PBXProject "RamdanPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1896D223262064F2000B748B;
+			packageReferences = (
+				181E283D2621D47800B9D5FF /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
+			productRefGroup = 1896D22D262064F2000B748B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1896D22B262064F2000B748B /* RamdanPro */,
+				1896D241262064F4000B748B /* RamdanProTests */,
+				1896D24C262064F4000B748B /* RamdanProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1896D22A262064F2000B748B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896D23C262064F3000B748B /* LaunchScreen.storyboard in Resources */,
+				1896D239262064F3000B748B /* Preview Assets.xcassets in Resources */,
+				1896D236262064F3000B748B /* Assets.xcassets in Resources */,
+				181E284D2621DE7100B9D5FF /* ElegantCalendar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D240262064F4000B748B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D24B262064F4000B748B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432D9DE0838B65C98D380088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamdanPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1487C36744601BF0E4E910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdanPro/Pods-RamdanPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdanPro/Pods-RamdanPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RamdanPro/Pods-RamdanPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1896D228262064F2000B748B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E280A2621AD7500B9D5FF /* Compass.swift in Sources */,
+				181E281E2621B91600B9D5FF /* qiblaFinder.swift in Sources */,
+				181E280F2621ADAF00B9D5FF /* compassHelper.swift in Sources */,
+				1896D230262064F2000B748B /* AppDelegate.swift in Sources */,
+				186EBD2B2620C94500C3C11B /* prayerTimes.swift in Sources */,
+				1896D232262064F2000B748B /* SceneDelegate.swift in Sources */,
+				181E28272621CD8B00B9D5FF /* calendarView.swift in Sources */,
+				181E28052621AD4C00B9D5FF /* CompassHeading.swift in Sources */,
+				1896D234262064F2000B748B /* ContentView.swift in Sources */,
+				180866382620C1C9000592D1 /* labelView.swift in Sources */,
+				181E27F926219B3300B9D5FF /* QiblaDirection.swift in Sources */,
+				181E27F426219AEF00B9D5FF /* adhanView.swift in Sources */,
+				18AE1AB22624732F00ED5843 /* nextPrayerView.swift in Sources */,
+				180866332620BA60000592D1 /* mainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D23E262064F4000B748B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896D247262064F4000B748B /* RamdanProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1896D249262064F4000B748B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896D252262064F4000B748B /* RamdanProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1896D244262064F4000B748B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1896D22B262064F2000B748B /* RamdanPro */;
+			targetProxy = 1896D243262064F4000B748B /* PBXContainerItemProxy */;
+		};
+		1896D24F262064F4000B748B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1896D22B262064F2000B748B /* RamdanPro */;
+			targetProxy = 1896D24E262064F4000B748B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1896D23A262064F3000B748B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1896D23B262064F3000B748B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1896D254262064F4000B748B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1896D255262064F4000B748B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1896D257262064F4000B748B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36357038A7166C474DDBBFBE /* Pods-RamdanPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RamdanPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RamdanPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1896D258262064F4000B748B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2844548666C5F0A6AE2B45B /* Pods-RamdanPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RamdanPro/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RamdanPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1896D25A262064F4000B748B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				INFOPLIST_FILE = RamdanProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdanPro.app/RamdanPro";
+			};
+			name = Debug;
+		};
+		1896D25B262064F4000B748B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				INFOPLIST_FILE = RamdanProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdanPro.app/RamdanPro";
+			};
+			name = Release;
+		};
+		1896D25D262064F4000B748B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				INFOPLIST_FILE = RamdanProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdanPro;
+			};
+			name = Debug;
+		};
+		1896D25E262064F4000B748B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YC59NJSQG;
+				INFOPLIST_FILE = RamdanProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.umer.RamdanProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdanPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1896D227262064F2000B748B /* Build configuration list for PBXProject "RamdanPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896D254262064F4000B748B /* Debug */,
+				1896D255262064F4000B748B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1896D256262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896D257262064F4000B748B /* Debug */,
+				1896D258262064F4000B748B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1896D259262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896D25A262064F4000B748B /* Debug */,
+				1896D25B262064F4000B748B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1896D25C262064F4000B748B /* Build configuration list for PBXNativeTarget "RamdanProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896D25D262064F4000B748B /* Debug */,
+				1896D25E262064F4000B748B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		181E283D2621D47800B9D5FF /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		181E283E2621D47800B9D5FF /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 181E283D2621D47800B9D5FF /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1896D224262064F2000B748B /* Project object */;
+}

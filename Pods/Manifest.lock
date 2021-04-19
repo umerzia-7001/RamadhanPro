@@ -1,0 +1,16 @@
+PODS:
+  - Adhan (1.3.0)
+
+DEPENDENCIES:
+  - Adhan
+
+SPEC REPOS:
+  trunk:
+    - Adhan
+
+SPEC CHECKSUMS:
+  Adhan: 28d94d9c12d72df3505c64aa0a5a9d90597f036b
+
+PODFILE CHECKSUM: 26d04eaed2a3f4e5fe4180dca97408129d302ef0
+
+COCOAPODS: 1.10.0
